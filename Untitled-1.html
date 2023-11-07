@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício vetor</title>
+    <script src="funcoes.js"></script>
+</head>
+<body onload="atualizar()">
+
+<span id="showname"></span>
+<br>   
+<label for="nome">Digite um nome :</label>
+<input type="text" name="nome" id="nome">
+<br>
+<input type="button" value="Inserir(push)" id="btn1" onclick="inserir()" >
+<input type="button" value="Retirar(pop)" id="btn2" onclick="retirar()">
+<br>
+<input type="button" value="Inserir(unshift)" id="btn3" onclick="inserir_unshift()" >
+<input type="button" value="Retirar(shift)" id="btn4" onclick="retirar_shift()">
+<br>
+<input type="button" value="Registros" id="btn5" onclick="registros()">
+    <span id="registro"></span>
+<br>
+<label for="posicao">Digite a posição</label>
+<input type="number" name="posicao" id="posicao">
+<br>
+<input type="button" value="Encontrar resultado" onclick="enc_ind()">
+</body>
+</html>
